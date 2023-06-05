@@ -1,0 +1,14 @@
+@media only screen and (max-width:480px) {
+   .header_assignment {
+    display: none;
+   }
+   .header_mentor {
+    display: none;
+   }
+   .main_logo {
+    width:'2%'
+   }
+   .header_class {
+     width:'2%'
+   }
+}

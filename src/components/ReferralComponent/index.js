@@ -1,10 +1,10 @@
 import React from 'react';
 import RefEarning from '../ReferralSection/RefEarning';
 import ReferralCode from '../ReferralCode/ReferralCode';
-
+import '../ReferralComponent/index.css';
 const Referral = () => {
     return (
-        <div style={{display:'flex'}}>
+        <div className="referral_header" style={{display:'flex'}}>
             <div style={{paddingLeft:'8em'}}>
                 <RefEarning />
             </div>

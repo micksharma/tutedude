@@ -7,7 +7,7 @@ import Work from '../components/work';
 const ReferAndEarn = () => {
     return (
         <>
-         <Header />
+        <Header />
        <EarnBar />
        <Referral />
        <Work />
