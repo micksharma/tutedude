@@ -1,13 +1,21 @@
 import React from 'react';
 import ReferAndEarn from './screens/ReferAndEarn';
 import FriendsReferred from './screens/FriendsReferred';
-import {Routes , BrowserRouter as Router , Switch , Redirect , useNavigate, Route} from 'react-router-dom';
+import {Routes, Switch , Redirect , useNavigate, Route, BrowserRouter} from 'react-router-dom';
+import HomeScreen from './screens/Home';
 function App() {
   
   return (
     <>      
-       <ReferAndEarn />
-       {/* <FriendsReferred /> */}
+       {/* <ReferAndEarn />
+       <FriendsReferred /> */}
+       <BrowserRouter>
+        <Routes>
+           <Route path="/" element={<HomeScreen />} />
+           <Route path="/ReferAndEarn" element={<ReferAndEarn />} />
+           <Route path="/FriendsReferreds" element={<FriendsReferred />} />
+        </Routes>
+       </BrowserRouter>
     </>
   );
 }
