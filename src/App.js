@@ -1,7 +1,7 @@
 import React from 'react';
 import ReferAndEarn from './screens/ReferAndEarn';
 import FriendsReferred from './screens/FriendsReferred';
-import {Routes, Switch , Redirect , useNavigate, Route, BrowserRouter} from 'react-router-dom';
+import {Routes, Route, BrowserRouter} from 'react-router-dom';
 import HomeScreen from './screens/Home';
 function App() {
   
